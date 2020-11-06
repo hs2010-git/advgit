@@ -6,7 +6,11 @@ char *get_message(int number) {
     return message[number];
 }
 
-int main() {
-    printf(get_message(0));
+int main(int argc, char *argv[]) {
+    if (argc > 1) {
+        printf("Hello %s!\n", argv[1]);
+    } else {
+        printf(get_message(0));
+    }
     return 0;
 }

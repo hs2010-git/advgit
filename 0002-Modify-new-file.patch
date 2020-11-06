@@ -1,0 +1,19 @@
+From 2717c0803c691e47cefcb57b300d01b6899197a9 Mon Sep 17 00:00:00 2001
+From: Your Name <no@email>
+Date: Sat, 7 Nov 2020 03:54:09 +0800
+Subject: [PATCH 2/2] Modify new file
+
+---
+ new-file | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/new-file b/new-file
+index c381bd9..25d3f60 100644
+--- a/new-file
++++ b/new-file
+@@ -1 +1 @@
+-A new file!
++A modified new file!
+-- 
+2.29.2
+

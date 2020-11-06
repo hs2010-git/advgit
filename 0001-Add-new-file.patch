@@ -1,0 +1,20 @@
+From 524fca4f4a333eefdf77924ac80118a9bb020ede Mon Sep 17 00:00:00 2001
+From: Your Name <no@email>
+Date: Sat, 7 Nov 2020 03:53:59 +0800
+Subject: [PATCH 1/2] Add new file
+
+---
+ new-file | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new-file
+
+diff --git a/new-file b/new-file
+new file mode 100644
+index 0000000..c381bd9
+--- /dev/null
++++ b/new-file
+@@ -0,0 +1 @@
++A new file!
+-- 
+2.29.2
+
