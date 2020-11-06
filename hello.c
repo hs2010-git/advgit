@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-char *message = "Hello uncertain worl!\n";
+char *messages[] = {"Hello uncertain worl!\n"};
 
-char *get_message(void) {
-    return message;
+char *get_message(int number) {
+    return message[number];
 }
 
 int main() {
-    printf(get_message());
+    printf(get_message(0));
     return 0;
 }
